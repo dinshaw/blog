@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  min_messages: warning
+  database: ctct-blog_development
+  pool: 5
+  username: <%= `whoami` %>
+  password:
+  host: localhost
+
+test:
+  adapter: postgresql
+  min_messages: warning
+  database: ctct-blog_test
+  pool: 5
+  username: <%= `whoami` %>
+  password:
+  host: localhost
