@@ -1,2 +1,3 @@
 Fabricator(:user) do
+
 end
