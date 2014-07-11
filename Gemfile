@@ -13,6 +13,7 @@ gem 'foundation-rails', '~> 5.2.2.0'
 gem 'devise', '~> 3.2.4'
 gem 'activeadmin', github: 'gregbell/active_admin'
 gem 'simple_form', '~> 3.0.2'
+gem 'rmultimarkdown', '~> 4.5.3.1'
 
 group :test do
   gem 'rspec-rails', '~> 3.0.1'
