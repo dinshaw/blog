@@ -20,7 +20,7 @@ RSpec.configure do |config|
     Capybara.javascript_driver = :poltergeist
   end
 
-  config.before :each do
+  config.before(:each) do |example|
     if example.metadata[:js] || example.metadata[:driver] == :selenium
       DatabaseCleaner.strategy = :truncation
     else
